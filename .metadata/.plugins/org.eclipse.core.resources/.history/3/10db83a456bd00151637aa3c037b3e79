@@ -1,0 +1,12 @@
+package Exceptions;
+
+public class Calculator {
+
+	static int power(int n, int p) throws MyOwnException {
+		if ((n<0)||(p<0)) {
+			throw new MyOwnException("n and p should be non-negative");
+		} else {
+			return (int) Math.pow(n, p);
+		}
+	}
+}

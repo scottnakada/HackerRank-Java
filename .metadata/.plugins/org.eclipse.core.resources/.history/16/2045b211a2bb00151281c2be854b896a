@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		/* Create a Scanner instance to read from standard input */
+		Scanner stdIn = new Scanner(System.in);
+		
+	}
+
+}

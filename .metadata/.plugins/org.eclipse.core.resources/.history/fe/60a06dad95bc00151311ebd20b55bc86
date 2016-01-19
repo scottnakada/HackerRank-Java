@@ -1,0 +1,17 @@
+package sortingAlgorithms;
+
+/* Group of Java sorting algorithms for an integer array */
+public class SortingAlgorithms {
+  
+    public static void main(String[] args) {
+    	
+        int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
+       
+        BubbleSort bubble = new BubbleSort(input);
+        System.out.println("Original array");
+        bubble.printNumbers();
+        bubble.sort();
+  
+    }
+
+}

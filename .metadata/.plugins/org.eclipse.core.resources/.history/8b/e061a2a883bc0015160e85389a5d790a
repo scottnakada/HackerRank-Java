@@ -1,0 +1,54 @@
+package sortingAlgorithms;
+
+/* Perform a bubble sort on an array of integers */
+public class BubbleSort {
+	
+	/* Array to be sorted */
+	public static int[] sortArray;
+	
+	/* Constructor for the bubble sort */
+	BubbleSort (int[] sortArrayIn) {
+		/* Make a copy of the data to be sorted */
+		sortArray = sortArrayIn;
+	}
+	
+	private static void swapNumbers(int i, int j, int[] array) {
+		  
+        int temp;
+        temp = sortArray[i];
+        sortArray[i] = sortArray[j];
+        sortArray[j] = temp;
+    }
+  
+    private static void printNumbers(int[] input) {
+          
+        for (int i = 0; i < input.length; i++) {
+            System.out.print(input[i] + ", ");
+        }
+        System.out.println("\n");
+    }
+    
+ // logic to sort the elements
+    public static void sort() {
+        int n = sortArray.length;
+        int k;
+        for (int m = n; m >= 0; m--) {
+        	System.out.println("m=" + m);
+        	boolean swapThisPass = false;
+            for (int i = 0; i < m - 1; i++) {
+                k = i + 1;
+                if (sortArray[i] > sortArray[k]) {
+                    swapNumbers(i, k, sortArray);
+                    swapThisPass = true;
+                }
+                System.out.print("m=" + m + ", i=" + i + ", array=");
+                printNumbers(sortArray);
+            }
+            if (!swapThisPass) {
+            	break;
+            }
+            printNumbers(sortArray);
+        }
+    }
+
+}

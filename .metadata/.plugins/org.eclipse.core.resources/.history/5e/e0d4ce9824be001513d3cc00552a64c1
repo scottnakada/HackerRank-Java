@@ -1,0 +1,5 @@
+package stackQueue;
+
+public abstract class StackQueue {
+
+}

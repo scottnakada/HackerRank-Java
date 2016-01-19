@@ -1,0 +1,34 @@
+package stackQueue;
+
+import java.util.Stack;
+
+public class Main {
+	
+	/* Java Stack Class practice */
+	public static void stackPractice() {
+		/* Create an instance of a Stack object */
+		Stack stack = new Stack();
+		
+		/* See if the stack is empty */
+		if (stack.isEmpty()) {
+			System.out.println("The stack is empty");
+		}
+		/* Print the contents of the stack */
+		System.out.println(stack);
+		/* Push some data on the stack */
+		stack.push(1);
+		System.out.println(stack);
+		stack.push(2);
+		System.out.println(stack);
+		stack.push(3);
+		System.out.println(stack);
+		
+	}
+
+	public static void main(String[] args) {
+		/* Practice with Java Stack Class */
+		stackPractice();
+
+	}
+
+}

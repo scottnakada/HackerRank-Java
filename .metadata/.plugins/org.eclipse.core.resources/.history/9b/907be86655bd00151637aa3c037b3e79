@@ -1,0 +1,41 @@
+package Exceptions;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	/* Declare a Scanner for reading standard input */
+	private static Scanner stdIn;
+
+	/* Main entry point for the program */
+	public static void main(String[] args) {
+		/* Create a new instance of a scanner for reading standard input */
+		stdIn = new Scanner(System.in);
+		
+		/* Read the number of test cases */
+		int testCases = stdIn.nextInt();
+		
+		/* Loop while there are more test cases */
+		while(testCases-- > 0) {
+			/* Read the number and power for the test case */
+			int number = stdIn.nextInt();
+			int power = stdIn.nextInt();
+			
+			/* Create a new instance of the calculator */
+			Calculator myCalculator = new Calculator();
+			
+			/* Try running the power method, and catch the exception */
+			try {
+				/* answer is number raised to the power power */
+				int answer = myCalculator.power(number, power);
+				/* Print out the result */
+				System.out.println(answer);
+			} catch(Exception exceptionNegNumbers) {
+				/* Print the exception message */
+				System.out.println(exceptionNegNumbers.getMessage());
+			}
+		}
+
+	}
+
+}

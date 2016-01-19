@@ -1,0 +1,21 @@
+package sortingAlgorithms;
+
+/* Group of Java sorting algorithms for an integer array */
+public class SortingAlgorithms {
+  
+    public static void main(String[] args) {
+    	
+    	/* Create in array to be sorted */
+        int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
+       
+        /* Create a new instance of the bubble sort class, to sort the input */
+        BubbleSort bubble = new BubbleSort(input);
+        System.out.println("Original array");
+        bubble.printNumbers();
+        System.out.println();
+        
+        bubble.sort();
+  
+    }
+
+}

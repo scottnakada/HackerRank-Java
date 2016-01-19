@@ -1,0 +1,38 @@
+package stackQueue;
+
+/* Manually implement a Java Stack of integers */
+public class StackInt extends StackQueueInt {
+	
+	/* Constructor for the StackInt Class */
+	StackInt() {
+		/* Create the superClass */
+		super();
+		/* Initialize the head to be null */
+		head = null;
+	}
+	
+	/* Push data onto the stack */
+	public void push (int newData) {
+		/* Create a new node to add to the stack */
+		Node newNode = new Node(newData);
+		/* Initialize the next pointer on the new node to point to the previous head */
+		newNode.next = head;
+		/* The new head is the new Node */
+		head = newNode;
+		
+	}
+	
+	/* Pop data off the stack */
+	
+	/* Peek at the top of the stack */
+	public int peek() {
+		/* Is the stack empty? */
+		if (head == null) {
+			/* Throw an exception, as we can't peak at an empty stack */
+			throw new IllegalStateException("Can't peek at an empty stack");
+		} else {
+			/* Return the data at the tail of the list */
+			return tail.data;
+		}
+	}
+}

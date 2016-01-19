@@ -1,0 +1,5 @@
+package Exceptions;
+
+public class MyOwnException extends Exception {
+
+}

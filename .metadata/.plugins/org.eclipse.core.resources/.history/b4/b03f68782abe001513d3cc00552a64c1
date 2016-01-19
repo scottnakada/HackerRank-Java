@@ -1,0 +1,18 @@
+package stackQueue;
+
+/* Manually implement a Java Stack of integers */
+public class StackInt extends StackQueueInt {
+	
+	/* Constructor for the StackInt Class */
+	StackInt() {
+		/* Create the superClass */
+		super();
+	}
+	
+	/* Push data onto the stack */
+	public void push (int newData) {
+		/* Create a new node to add to the stack */
+		Node newNode = new Node();
+		
+	}
+}
