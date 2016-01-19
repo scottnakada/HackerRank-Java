@@ -1,0 +1,25 @@
+package divisorSum;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		/* Create a Scanner instance to read standard Input */
+		Scanner stdIn = new Scanner(System.in);
+		
+		/* Read the number to compute divisor sum */
+		int number = stdIn.nextInt();
+		
+		/* Create a new Calculator */
+		AdvancedArithmetic myCalculator = new Calculator();
+		
+		/* Compute the sum of divisors for number */
+		int sum = myCalculator.divisorSum(number);
+		
+		/* Print the result */
+		System.out.println("I implemented: AdvancedArithmetic\n" + sum);
+
+	}
+
+}
