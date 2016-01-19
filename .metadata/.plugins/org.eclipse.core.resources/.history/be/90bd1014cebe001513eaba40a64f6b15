@@ -1,0 +1,23 @@
+package interfaceExample;
+
+public class Dog implements Swimmable, Talkative {
+
+	@Override
+	public void talk() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void swim(int howFar) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void dive(int howDeep) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

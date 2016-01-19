@@ -1,0 +1,11 @@
+package interfaceExample;
+
+public class Parrot implements Talkative {
+
+	@Override
+	public void talk() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

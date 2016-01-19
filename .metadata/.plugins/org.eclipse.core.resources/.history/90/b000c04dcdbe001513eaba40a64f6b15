@@ -1,0 +1,14 @@
+package interfaceExample;
+
+public class Main {
+	
+	/* Start the program here */
+	public static void main(String[] args) {
+		System.out.println("Examples of Java Interfaces");
+		
+		System.out.println("Instantiate a Parrot, which implements Talkative");
+		Parrot polly = new Parrot();
+		polly.talk();
+	}
+
+}

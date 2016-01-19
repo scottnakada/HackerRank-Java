@@ -1,0 +1,17 @@
+package interfaceExample;
+
+public class Fish implements Swimmable {
+
+	@Override
+	public void swim(int howFar) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void dive(int howDeep) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

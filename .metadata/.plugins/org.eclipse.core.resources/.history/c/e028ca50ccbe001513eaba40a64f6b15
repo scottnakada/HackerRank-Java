@@ -1,0 +1,11 @@
+package interfaceExample;
+
+public class Main {
+	
+	/* Start the program here */
+	public static void main(String[] args) {
+		System.out.println("Examples of Java Interfaces");
+
+	}
+
+}
