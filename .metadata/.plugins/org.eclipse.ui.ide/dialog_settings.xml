@@ -15,6 +15,8 @@
 		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
+	<section name="NewWizardAction">
+	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="312" key="DIALOG_X_ORIGIN"/>
 		<item value="197" key="DIALOG_Y_ORIGIN"/>
