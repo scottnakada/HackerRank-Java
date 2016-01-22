@@ -1,0 +1,37 @@
+package genericsPractice;
+
+/* Declare the Generics class */
+public class Generics {
+	
+	/* Define a generic findMax function - returns the maximum */
+	/* 	of two values, irregardless of type.  This only works */
+	/*  on types that contain a compareTo method (are in the */
+	/*  Comparable class */
+	public static <inputType extends Comparable<inputType>>
+			inputType findMax(inputType firstValue, inputType secondValue) {
+		/* Is the second Value more than the first? */
+		/* compareTo returns -1, if firstValue is less than secondValue */
+		/*                    0, if they are equal */
+		/*                    1, if firstValue is greater than secondValue */
+		if (firstValue.compareTo(secondValue) < 0) {
+			/* The second value is greater, return it */
+			return secondValue;
+		} else {
+			return firstValue;
+		}
+	}
+
+	/* Start the program here */
+	public static void main(String[] args) {
+		
+		/* Testing generic findMax routine on different data types */
+		System.out.println("Generic's Practice");
+		System.out.println("Testing a generic findMax routine on different types");
+		System.out.println("Max of integers 2 and 3");
+		/* Compare two ints in different spots in the findMax input */
+		System.out.println(findMax(2, 3));
+		System.out.println(findMax(3, 3));
+		System.out.println(findMax(3, 2));
+	}
+
+}

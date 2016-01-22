@@ -188,10 +188,10 @@ public class Main {
 	
 	public static void main(String[] args) {
 		/* Practice with Java Stack Class */
-		//stackPractice();
+		stackPractice();
 		
 		/* Practice with Java Queue Class */
-		//queuePractice();
+		queuePractice();
 		
 		/* Practice with my StackInt Class */
 		myStackPractice();
