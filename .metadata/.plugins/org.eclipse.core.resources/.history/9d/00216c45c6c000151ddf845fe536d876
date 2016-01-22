@@ -1,0 +1,20 @@
+package enumExample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Enum Example");
+		
+		/* Create a new person with Black hair */
+		Person peterParker = new Person(HairColors.BLACK);
+		System.out.println("Creating Peter Parker with " + peterParker.getHairColor() + " hair");
+
+		/* Creating an alias Spiderman for Peter Parker */
+		System.out.println("Creating an alias for Peter Parker, called Spiderman");
+		Person spiderMan = peterParker;
+		
+		System.out.println("Spiderman has " + spiderMan.getHairColor() + " hair, just like Peter Parker");
+
+	}
+
+}

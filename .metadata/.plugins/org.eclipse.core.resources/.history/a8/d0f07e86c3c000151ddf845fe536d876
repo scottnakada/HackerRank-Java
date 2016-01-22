@@ -1,0 +1,5 @@
+package enumExample;
+
+public enum HairColor {
+
+}

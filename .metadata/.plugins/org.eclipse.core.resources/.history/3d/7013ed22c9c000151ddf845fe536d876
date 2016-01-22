@@ -1,0 +1,29 @@
+package generics;
+
+/* Declare the Printer class, to print generic values */
+class Printer {
+	public <inputType> void printArray(inputType[] array) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
+}
+
+	/* Declare the solution class */
+public class Solution {
+
+	/* Start the program here */
+	public static void main(String[] args) {
+		/* Create an instance of the Printer class */
+		Printer myPrinter = new Printer();
+		
+		/* Create Integer and String arrays as test data */
+		Integer[] intArray = { 1, 2, 3 };
+		String[] stringArray = { "Hello", "World" };
+		
+		/* Print the arrays using the generic function printArray */
+		myPrinter.printArray( intArray );
+		myPrinter.printArray( stringArray );
+	}
+
+}

@@ -1,0 +1,13 @@
+package enumExample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Enum Example");
+		
+		/* Create a new person with Black hair */
+		Person peterParker = new Person(BLACK);
+
+	}
+
+}

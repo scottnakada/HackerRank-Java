@@ -1,0 +1,10 @@
+package enumExample;
+
+/* Declare a person class */
+public class Person {
+	
+	/* Define a hairColor instance variable of type HairColor */
+	HairColor hairColor;
+	
+
+}
