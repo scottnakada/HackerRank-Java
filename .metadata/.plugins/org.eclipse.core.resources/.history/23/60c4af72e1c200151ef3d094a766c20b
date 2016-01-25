@@ -1,0 +1,14 @@
+package genericBinaryTree;
+
+public class Main {
+
+	/* Start the program here */
+	public static void main(String[] args) {
+		/* Solve the binary tree problems using a generic binary tree */
+		System.out.println("****************************");
+		System.out.println("* Generic Binary Tree test *");
+		System.out.println("****************************");
+
+	}
+
+}

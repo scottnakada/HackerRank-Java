@@ -1,0 +1,49 @@
+package genericBinaryTree;
+
+public class Main {
+	/***************************/
+	/* Build a 123 binary tree */
+	/* .......2............... */
+	/* ....../.\.............. */
+	/* .....1...3............. */
+	/***************************/
+	public static void build123() {
+
+		/* Create a new binary tree */
+		GenericBinaryTree<Integer> tree123 = new GenericBinaryTree<Integer>();
+		/* Add the nodes 2, followed by 1, followed by 3 */
+		System.out.println("This size of the tree is: " + tree123.size());
+		System.out.println("Max depth is: " + tree123.maxDepth());
+		tree123.printTree();
+		tree123.insert(2);
+		System.out.println("This size of the tree is: " + tree123.size());
+		System.out.println("Max depth is: " + tree123.maxDepth());
+		tree123.insert(1);
+		System.out.println("This size of the tree is: " + tree123.size());
+		System.out.println("Max depth is: " + tree123.maxDepth());
+		tree123.insert(3);
+		System.out.println("This size of the tree is: " + tree123.size());
+		System.out.println("Max depth is: " + tree123.maxDepth());
+		tree123.insert(0);
+		System.out.println("This size of the tree is: " + tree123.size());
+		System.out.println("Max depth is: " + tree123.maxDepth());
+	}
+
+	/* Start the program here */
+	public static void main(String[] args) {
+		/* Solve the binary tree problems using a generic binary tree */
+		System.out.println("****************************");
+		System.out.println("* Generic Binary Tree test *");
+		System.out.println("****************************");
+
+		/* Test building a 1 2 3 binary tree */
+		System.out.println("*****************************");
+		System.out.println("* Build a   2   Binary Tree *");
+		System.out.println("*          / \\              *");
+		System.out.println("*         1   3             *");
+		System.out.println("*****************************");
+		build123();
+
+	}
+
+}
