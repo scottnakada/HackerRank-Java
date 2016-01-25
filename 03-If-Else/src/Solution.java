@@ -3,9 +3,12 @@ import java.util.Scanner;
 /*
 Problem Statement
 
-Welcome to Day 3! Check out a review of if-else statements here, or just jump right into the problem.
+Welcome to Day 3! Check out a review of if-else statements here
+	(https://www.youtube.com/watch?v=07Yum5sXxT8&feature=youtu.be), or just jump right
+	into the problem.
 
-Using "if-else" you can perform decision making in your code. See the flowchart below (taken from wikipedia):
+Using "if-else" you can perform decision making in your code. See the flowchart
+	below (taken from wikipedia):
 
 This problem will test your knowledge on "if-else" statements.
 

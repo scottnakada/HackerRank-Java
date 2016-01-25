@@ -1,7 +1,10 @@
 /*
 Problem Statement
 
-Welcome to Day 0 and the wonderful world of coding! Check out the video tutorial here, or just jump right into the problem. The tutorial is based on Java, but you can submit your solution in other popular languages.
+Welcome to Day 0 and the wonderful world of coding! Check out the video tutorial here
+	(https://www.youtube.com/watch?v=K5WxmFfIWbo&feature=youtu.be), or just jump right
+	into the problem. The tutorial is based on Java, but you can submit your solution
+	in other popular languages.
 
 For this challenge, all you have to do is print the following two lines:
 

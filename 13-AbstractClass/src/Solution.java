@@ -1,7 +1,10 @@
 /*
 
-Welcome to Day 13! Check out this video reviewing abstract classes, or just
-	jump into the problem. It's important to understand Inheritance before
+Welcome to Day 13! Check out this video
+	(https://www.youtube.com/watch?v=xSQKDWTahvs&feature=youtu.be)reviewing abstract classes
+	(https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), or just
+	jump into the problem. It's important to understand Inheritance
+	(https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html) before
 	attempting this challenge.
 
 Following is an example of abstract class in java:

@@ -1,6 +1,7 @@
 /*
 
-Welcome to Day 15! Check out a video review of linked lists here, or just
+Welcome to Day 15! Check out a video review of linked lists here
+	(https://www.youtube.com/watch?v=n9p5WK7AeY0&feature=youtu.be), or just
 	jump right into the problem.
 
 You are given a class Node in the editor which has one instance pointer

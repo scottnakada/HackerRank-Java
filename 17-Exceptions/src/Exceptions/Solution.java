@@ -1,10 +1,13 @@
 /*
 
-Welcome to Day 17! Learn how to use try-catch blocks in Day 16 and how
-	to create your own exceptions in Day 17 or just jump right into the problem.
+Welcome to Day 17! Learn how to use try-catch blocks
+	(https://www.youtube.com/watch?v=2foOQ1Uxb6s&feature=youtu.be)in Day 16 and how
+	to create your own exceptions in Day 17
+	(https://www.youtube.com/watch?v=9TuoE16Tlac&feature=youtu.be) or just
+	jump right into the problem.
 
 Create a class Calculator which consists of a single method
-	power(int,int). This method takes two integers, n and p, as
+	power(int, int). This method takes two integers, n and p, as
 	parameters and finds np. If either n or p is negative, then the
 	method must throw an exception which says "n and p should be
 	non-negative".

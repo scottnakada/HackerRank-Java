@@ -3,7 +3,8 @@ import java.util.Scanner;
 /*
 
 Welcome to Day 18! Review this queues and stacks video and the
-	Java documentation for implementing stacks and queues, or
+	Java documentation for implementing stacks and queues
+	(https://www.youtube.com/watch?v=fOHLom4hZME&feature=youtu.be), or
 	just jump right into the problem.
 
 A palindrome is a "word, phrase, number, or other sequence of

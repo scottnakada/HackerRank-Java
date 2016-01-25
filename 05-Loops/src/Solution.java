@@ -1,15 +1,19 @@
 /*
 Problem Statement
 
-Welcome to Day 5! Check out the video review of loops here, or just jump right into the problem.
+Welcome to Day 5! Check out the video review of loops here
+	(https://www.youtube.com/watch?v=U5WTpk6BX9U&feature=youtu.be), or just jump right
+	into the problem.
 
-In this problem you will test your knowledge of loops. Given three integers a, b, and N, output the following series:
+In this problem you will test your knowledge of loops. Given three integers a, b, and N,
+	output the following series:
 
 a+2^0*b,a+2^0*b+2^1*b,......,a+2^0*b+2^1*b+...+2^(N-1)*b
 
 Input Format
 
-The first line will contain the number of testcases T. Each of the next T lines will have three integers, a, b, and N.
+The first line will contain the number of testcases T. Each of the next T lines will
+	have three integers, a, b, and N.
 
 Constraints
 

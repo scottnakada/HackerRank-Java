@@ -3,7 +3,9 @@ import java.util.Scanner;
 /*
 Problem Statement
 
-Welcome to Day 2! Check out the video tutorial here, or just jump right into the problem.
+Welcome to Day 2! Check out the video tutorial here
+	(https://www.youtube.com/watch?v=uDwg5F_rW18&feature=youtu.be), or just
+	jump right into the problem.
 
 Practice how to do arithmetic with code in this challenge! If given the meal price, tip percentage,
 	and tax percentage, we can find the final price of a meal.

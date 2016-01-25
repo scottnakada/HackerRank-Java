@@ -1,6 +1,7 @@
 /*
 
-Start learning about Exceptions in Day 16's video or just jump into
+Start learning about Exceptions in Day 16's video
+	(https://www.youtube.com/watch?v=2foOQ1Uxb6s&feature=youtu.be)or just jump into
 	this sorting challenge!
 
 Sorting is an important basic algorithmic concept used to organize

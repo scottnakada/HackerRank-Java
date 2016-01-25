@@ -2,7 +2,8 @@
 
 Problem Statement
 
-Welcome to Day 12! Check out this video reviewing inheritance, or just jump right
+Welcome to Day 12! Check out this video reviewing inheritance
+	(https://www.youtube.com/watch?v=wlA66hZ4Z74&feature=youtu.be), or just jump right
 	into the problem.
 
 You are given two classes, Student and Grade, where Student is the base class and

@@ -2,7 +2,9 @@
 
 Problem Statement
 
-Welcome to Day 7! Check out a video review of arrays here, or just jump right into the problem.
+Welcome to Day 7! Check out a video review of arrays here
+	(https://www.youtube.com/watch?v=TY58y58GPdY&feature=youtu.be), or just jump
+	right into the problem.
 
 An array is a series of elements of the same type placed in contiguous memory locations that can be individually referenced by adding an index to a unique identifier.
 

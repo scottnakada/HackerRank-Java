@@ -3,7 +3,9 @@
 Problem Statement
 
 Welcome to Day 11! Review everything we've learned so far by making a
-	library catalogue in this video, or just jump right into the
+	library catalogue in this video
+	(https://www.youtube.com/watch?v=ul0sdBqrivw&feature=youtu.be), or
+	just jump right into the
 	problem. We haven't discussed 2D Arrays in this series, but
 	they're very similar to the regular 1D Arrays you're likely
 	familiar with. If you are working in Java, check out Oracle's

@@ -3,7 +3,8 @@
 
 Problem Statement
 
-Welcome to Day 9! Check out this video on recursion, or jump right into the problem.
+Welcome to Day 9! Check out this video on recursion
+	(https://www.youtube.com/watch?v=glENxqtJzAQ&feature=youtu.be), or jump right into the problem.
 
 Euclid's Algorithm for Computing the GCD of two integers
 

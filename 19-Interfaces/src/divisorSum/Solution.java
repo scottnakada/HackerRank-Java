@@ -1,6 +1,7 @@
 /*
 
-Welcome to Day 19! Check out a video review of interfaces here, or
+Welcome to Day 19! Check out a video review of interfaces here
+	(https://www.youtube.com/watch?v=YTx_JRBkcD4&feature=youtu.be), or
 	just jump right into the problem.
 
 Interfaces are an important concept in Java and in a few other

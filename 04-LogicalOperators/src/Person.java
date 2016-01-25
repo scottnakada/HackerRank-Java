@@ -3,7 +3,9 @@ import java.util.Scanner;
 /*
 Problem Statement
 
-Welcome to Day 4! Check out a video review of logical operations here, or just jump right into the problem.
+Welcome to Day 4! Check out a video review of logical operations here
+	(https://www.youtube.com/watch?v=Zj5eD0a6sm4&feature=youtu.be), or just jump right
+	into the problem.
 
 Note: This task is focused on Object Oriented concepts, so it is only enabled in a few languages.
 
@@ -17,7 +19,8 @@ If the initial_Age is negative, set the instance's age equal to zero then print
 
 without the quotations..
 
-Inside of this class, you will also create an instance variable called age and if initial_Age is not negative,
+Inside of this class, you will also create an instance variable called age and if initial_Age
+	is not negative,
 	then you will set age to equal the value of initial_Age. In addition, you will write an instance
 	method, amIOld(), that prints whether people are old or not to the console.
 

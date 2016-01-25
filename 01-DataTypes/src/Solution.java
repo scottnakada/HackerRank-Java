@@ -1,7 +1,9 @@
 /*
 Problem Statement
 
-Welcome to Day 1! Check out the video tutorial here, or just jump right into the problem.
+Welcome to Day 1! Check out the video tutorial here
+	(https://www.youtube.com/watch?v=XLCka0noTY4&feature=youtu.be), or just jump
+	right into the problem.
 
 Let's talk about data types. In programming, a data type is a classification of types of
 	data that determine the possible values and operations on that particular type.

@@ -1,8 +1,9 @@
 /*
 
 Welcome to Day 14! Congratulations on getting half way through the series!
-	Check out a video review of scope and importing here, or just jump right
-	into the problem.
+	Check out a video
+	(https://www.youtube.com/watch?v=ylx2U0N2jG4&feature=youtu.be) review of
+	scope and importing here, or just jump right into the problem.
 
 In this challenge, you will create a program that takes N non-negative
 	integers as input and finds the greatest absolute difference between

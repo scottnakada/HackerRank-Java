@@ -1,7 +1,8 @@
 /*
 
-Welcome to Day 22! Check out a video review of binary search trees and heaps
-	here, or just jump right into the problem.
+Welcome to Day 22! Check out a video review of binary search trees and heaps here
+	(https://www.youtube.com/watch?v=cqoGE1GPqU8&feature=youtu.be), or just jump
+	right into the problem.
 
 The height of a binary tree is the number of nodes on the largest path from
 	root to any leaf. You are given a pointer root pointing to the root of

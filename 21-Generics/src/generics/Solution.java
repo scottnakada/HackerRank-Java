@@ -1,6 +1,7 @@
 /*
 
-Welcome to Day 21! Check out a video review of generics here, or
+Welcome to Day 21! Check out a video review of generics here
+	(https://www.youtube.com/watch?v=Z9uAwnz_wBA&feature=youtu.be), or
 	just jump right into the problem.
 
 Generic methods are a very efficient way to handle multiple

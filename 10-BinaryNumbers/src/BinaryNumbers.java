@@ -2,7 +2,8 @@
 
 Problem Statement
 
-Welcome to Day 10! Check out this video for a review of binary numbers, or just
+Welcome to Day 10! Check out this video for a review of binary numbers
+	(https://www.youtube.com/watch?v=8WW9vdd421s&feature=youtu.be), or just
 	jump right into the problem.
 
 For this challenge, convert a given number, n, from decimal (base 10) to binary

@@ -1,10 +1,12 @@
 /*
 
 Welcome to Day 20! Check out a video review of pointers, aliasing,
-	garbage collection, and Java Virtual Machine, or just jump
+	garbage collection, and Java Virtual Machine
+	(https://www.youtube.com/watch?v=1IAIu0Dbys8&feature=youtu.be), or just jump
 	right into the problem. In the 30 Days of Code series, we
 	haven't talked about StringTokenizer, but that's okay! Java
-	users can dive into the StringTokenizer documentation, figure
+	users can dive into the StringTokenizer documentation
+	(http://docs.oracle.com/javase/7/docs/api/java/util/StringTokenizer.html), figure
 	out what it can do, and solve this problem. You can do this!
 
 And those of you that are not using Java can solve this challenge

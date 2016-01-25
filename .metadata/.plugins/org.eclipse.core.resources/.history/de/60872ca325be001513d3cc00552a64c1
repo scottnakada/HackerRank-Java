@@ -1,5 +1,0 @@
-package stackQueue;
-
-public class StackInt extends StackQueueInt {
-
-}
