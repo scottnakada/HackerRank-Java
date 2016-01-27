@@ -1,0 +1,19 @@
+package binarySearchTree;
+
+public class Testers {
+
+	public static void checkIsEmpty(Tree tree) throws Exception {
+		/* If the tree tree is an instance of EmptyBST --> tree.isEmpty -> true */
+		/* If the tree tree is an instance of NonEmptyBST --> tree.isEmpty -> false */
+		if (tree instanceof EmptyBST) {
+			if (!tree.isEmpty()) {
+				throw new Exception("All is not good, the tree is an EmptyBST and it is non-empty");
+			}
+		} else if (tree instanceof NonEmptyBST) {
+			if (tree.isEmpty()) {
+				throw new Exception("All is not good, the tree is an NonEmptyBST and it is empty");
+			}
+		}
+	}
+	
+}

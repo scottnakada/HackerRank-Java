@@ -1,0 +1,13 @@
+package binarySearchTree;
+
+public class BinarySearchTree {
+
+	public static void main(String[] args) {
+		EmptyBST emptyBST = new EmptyBST();
+		NonEmptyBST nonEmptyBST = new NonEmptyBST(5);
+		
+		Testers.checkIsEmpty(emptyBST);
+		Testers.checkIsEmpty(nonEmptyBST);
+	}
+
+}
