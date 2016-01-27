@@ -1,0 +1,48 @@
+package libraryFine;
+
+import java.io.*;
+import java.util.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		try {
+			/* Instantiate a Scanner for reading standard input */
+			Scanner stdIn = new Scanner(System.in);
+
+			SimpleDateFormat sdf = new SimpleDateFormat("dd MM yyyy");
+			Date returnedDate = sdf.parse("9 9 2015");
+			Date dueDate = sdf.parse("6 6 2015");
+
+			System.out.println(sdf.format(returnedDate));
+			System.out.println(sdf.format(dueDate));
+			
+			if (returnedDate.compareTo(dueDate) < 0) {
+				System.out.println("The book was returned on time");
+				System.out.println("0");
+			} else {
+				/* The book is overdue */
+				if (returnedDate.getYear() != dueDate.getYear()) {
+					/* Pay the yearly fine */
+					System.out.println("More than a year late");
+					System.out.println("10000");
+				} else if (returnedDate.getMonth() != dueDate.getMonth()) {
+					/* Not returned in the same month */
+					System.out.println((returnedDate.getMonth() - dueDate.getMonth()) + " months late");
+					System.out.println(((returnedDate.getMonth() - dueDate.getMonth()) * 500));
+				} else {
+					/* returned in the month */
+					System.out.println("returnedDate: " + returnedDate.getDate() + ", dueDate: " + dueDate.getDate());
+					System.out.println((returnedDate.getDate() - dueDate.getDate()) + " days late");
+					System.out.println(((returnedDate.getDate() - dueDate.getDate()) * 15));
+				}
+			}
+		} catch (ParseException ex) {
+			ex.printStackTrace();
+		}
+	}
+
+}

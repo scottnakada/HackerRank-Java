@@ -1,0 +1,59 @@
+package libraryFine;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		try {
+			/* Instantiate a Scanner for reading standard input */
+			Scanner stdIn = new Scanner(System.in);
+			
+			/* Define a simple date format */
+			SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd MM yyyy");
+			
+			/* Read the returned and due date strings */
+			String returnedDateStr = stdIn.nextLine();
+			String dueDateStr = stdIn.nextLine();
+			
+			/* Convert the strings to dates */
+			Date returnedDate = simpleDateFormat.parse(returnedDateStr);
+			Date dueDate = simpleDateFormat.parse(dueDateStr);
+			System.out.println(simpleDateFormat.format(returnedDate));
+			System.out.println(simpleDateFormat.format(dueDate));
+			
+			/* Is the book overdue? */
+			if (returnedDate.compareTo(dueDate) < 0) {
+				System.out.println("The book was returned on time");
+				System.out.println("0");
+			} else {
+				/* The book is overdue */
+				/* Was it returned in a different year? */
+				if (returnedDate.getYear() != dueDate.getYear()) {
+					/* Pay the yearly fine */
+					System.out.println("More than a year late");
+					System.out.println("10000");
+				/* Was it returned in a different month? */
+				} else if (returnedDate.getMonth() != dueDate.getMonth()) {
+					/* Not returned in the same month */
+					System.out.println((returnedDate.getMonth() - dueDate.getMonth()) + " months late");
+					System.out.println(((returnedDate.getMonth() - dueDate.getMonth()) * 500));
+				/* How many days late in this month */
+				} else {
+					/* returned in the month */
+					System.out.println("returnedDate: " + returnedDate.getDate() + ", dueDate: " + dueDate.getDate());
+					System.out.println((returnedDate.getDate() - dueDate.getDate()) + " days late");
+					System.out.println(((returnedDate.getDate() - dueDate.getDate()) * 15));
+				}
+			}
+		/* Handle errors parsing the date strings */
+		} catch (ParseException exception) {
+			System.out.println("Problems parsing date strings");
+			exception.printStackTrace();
+		}
+	}
+
+}

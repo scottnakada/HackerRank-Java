@@ -1,0 +1,36 @@
+package ticTacToeApplication;
+
+import java.util.Scanner;
+
+public class TicTacToeApplication {
+
+	public static void main(String[] args) {
+		/* Instantiate a Scanner to read standard input */
+		Scanner stdIn = new Scanner(System.in);
+
+		/* Assume we want to play forever */
+		boolean doYouWantToPlay = true;
+		
+		/* Loop until we don't want to play */
+		while (doYouWantToPlay) {
+			/* Explain how to play the game */
+			System.out.println("Welcome to Tic Tac Toe! You are about to go against " +
+					"the master of Tic Tac Toe.  Are you ready?  I hope so!\n BUT FIRST, you" +
+					" must pick what character you want to be and which character I will be");
+			System.out.println();
+			/* Enter your marker for the game */
+			System.out.println("Enter a single character that will represent you on the board (X/O)");
+			char playerToken = stdIn.next().charAt(0);
+			/* Enter your opponents marker */
+			System.out.println("Enter a single character that will represent your opponent on the board(X/O)");
+			char opponentToken = stdIn.next().charAt(0);
+			
+			/* Create a new game */
+			TicTacToe game = new TicTacToe(playerToken, opponentToken);
+			
+			/* Create a new AI character */
+			AI ai = new AI();
+		}
+	}
+
+}

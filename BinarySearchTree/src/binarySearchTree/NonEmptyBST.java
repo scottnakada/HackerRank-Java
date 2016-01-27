@@ -72,7 +72,6 @@ public class NonEmptyBST<inputType extends Comparable<inputType>> implements Tre
 				return new NonEmptyBST(data, left, right.add(newData));
 			}
 		}
-		return null;
 	}
 
 }

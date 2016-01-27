@@ -1,5 +1,0 @@
-package divisorSum;
-
-public interface AdvancedArithmetic {
-	int divisorSum(int number);
-}
