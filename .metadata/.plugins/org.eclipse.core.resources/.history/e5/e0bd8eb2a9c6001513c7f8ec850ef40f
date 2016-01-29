@@ -1,0 +1,53 @@
+package funnyStrings;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		/* Instantiate a Scanner for reading standard input */
+		Scanner stdIn = new Scanner(System.in);
+		
+		/* Read the number of test cases */
+		int testCases = Integer.parseInt(stdIn.nextLine());
+		System.out.println("Test Cases: " + testCases);
+		
+		/* Loop thru all of the test Cases */
+		while (testCases > 0) {
+			/* Read the next funnyString to test */
+			String funnyString = stdIn.nextLine();
+			System.out.println("Is this a funny string?: '" + funnyString + "'");
+			
+			/* Assume it is funny */
+			boolean funny = true;
+			
+			/* Scan thru the string to halfway, checking for not funny bits */
+			for (int i=0; i<(funnyString.length()/2); i++) {
+				/* Does the ith character - the ith+1 character difference equal
+				 * the length-i and length-i-1 character */
+				System.out.println("i=" + i + ", ith=" + funnyString.charAt(i) +
+						", ith+1=" + funnyString.charAt(i+1) +
+						", n-i-1=" + funnyString.charAt(funnyString.length()-i-1) +
+						", n-i-2=" + funnyString.charAt(funnyString.length()-i-2));
+				/* Is this a ith character funny? */
+				if (Math.abs(funnyString.charAt(i) - funnyString.charAt(i+1)) !=
+					Math.abs(funnyString.charAt(funnyString.length()-i-1) -
+							 funnyString.charAt(funnyString.length()-i-2))) {
+					/* The differences don't match, this isn't a funny string */
+					funny = false;
+					/* Break out of the loop */
+					break;
+				}
+			}
+			/* Was this string funny? */
+			if (funny) {
+				/* Print funny */
+				System.out.println("Funny");
+			} else {
+				/* Oops, not funny */
+				System.out.println("Not Funny");
+			}
+		}
+	}
+
+}
