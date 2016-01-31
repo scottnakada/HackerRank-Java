@@ -35,5 +35,5 @@ Day 28: RegEx, Patterns, and Intro to Databases!
 Day 29: Look at Everything We've Learned!
 
 I was able to finish all of the challenges, with a perfect score.  I tied for
-1st place.  Ths challenge isn't finished yet; but so far, only 802 people have
-been able to finish with a perfect score, out of 26000 that started the challenge.
+1st place (724th to finish).  Only 1734 people were able to finish with a perfect
+score, out of 26250 that started the challenge.
