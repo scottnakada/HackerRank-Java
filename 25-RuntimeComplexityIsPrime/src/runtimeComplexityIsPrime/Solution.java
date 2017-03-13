@@ -31,7 +31,7 @@ The first line of the input is T, total number of test cases. Each of the next l
 Constraints
 
 1<=T<=20
-1<=N<=2×109
+1<=N<=2ï¿½109
 Output Format
 
 For each test case print Prime if N is prime, otherwise print Not prime.
@@ -81,7 +81,7 @@ public class Solution {
         /* Since primes come in pairs, we don't need to test anything above the sqrt of the number */
         int limit = (int) Math.sqrt(testNumber);
         /* Start at 3, and go up to the square root, only testing odd numbers for primes */
-        for (int i=3; i<limit; i+=2) {
+        for (int i=3; i<=limit; i+=2) {
             if (testNumber % i == 0) {
                 /* It is divisible; so not prime, return false */
                 return false;
