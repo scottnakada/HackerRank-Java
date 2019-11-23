@@ -97,7 +97,7 @@ public class Solution {
 				System.out.println(inputName + "=" + phoneBook.get(inputName));
 			} else {
 				/* Print out error message if not found */
-				System.out.println("Not Found");
+				System.out.println("Not found");
 			}
 
 		}
